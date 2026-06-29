@@ -9,7 +9,7 @@ interface SiteHeaderProps {
 }
 
 const SiteHeader = ({
-  title = "Thaqib ibn Fazle",
+  title = "Thāqib ibn Fazle",
   subtitle = (
     <>
       <span>A digital library of clear, referenced articles clarifying Islam.</span>

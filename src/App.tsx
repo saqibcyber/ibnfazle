@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
+import Pdfs from "./pages/Pdfs";
 import NotFound from "./pages/NotFound";
 
 const RedirectHandler = () => {
@@ -31,6 +32,7 @@ const App = () => (
       <Route path="/" element={<Home />} />
       <Route path="/articles" element={<Blog />} />
       <Route path="/articles/:slug" element={<BlogPost />} />
+      <Route path="/pdfs" element={<Pdfs />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   </BrowserRouter>

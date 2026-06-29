@@ -1,7 +1,7 @@
 const SiteFooter = () => {
   return (
     <footer className="site-footer">
-      Thaqib ibn Fazle
+      Thāqib ibn Fazle
     </footer>
   );
 };
