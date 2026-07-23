@@ -10,21 +10,215 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "wudu-according-to-the-hanbali-madhhab",
+    title: "Wuḍūʾ According to the Ḥanbalī Madhhab",
+    summary: "This article presents the rulings of purification according to the Ḥanbalī school, covering wuḍūʾ, its conditions, obligations, recommended and disliked acts, nullifiers, and related rulings. It is summarized from Bidāyat al-ʿĀbid wa-Kifāyat al-Zāhid by Shaykh ʿAbd al-Raḥmān ibn ʿAbd Allāh al-Baʿlī al-Ḥanbalī and Kashshāf al-Qināʿ ʿan Matn al-Iqnāʿ by Shaykh Manṣūr ibn Yūnus al-Buhūtī, may Allah have mercy on them both.",
+    date: "2026-07-23",
+    category: "Fiqh",
+    author: "Thaqib ibn Fazle",
+    content: `
+  
+  This article presents the rulings of purification according to the Ḥanbalī school, covering *wuḍūʾ*, its conditions, obligations, recommended and disliked acts, nullifiers, and related rulings. The material is summarized from *Bidāyat al-ʿĀbid wa-Kifāyat al-Zāhid* by Shaykh ʿAbd al-Raḥmān ibn ʿAbd Allāh al-Baʿlī al-Ḥanbalī, while the recommended and disliked acts are taken from *Kashshāf al-Qināʿ ʿan Matn al-Iqnāʿ* by Shaykh Manṣūr ibn Yūnus al-Buhūtī, may Allah have mercy on them both.
+  
+  # The Types of Water
+  
+  The Hanbali’s categorize water into three types: 
+  
+  1. **Ṭahūr** (Purifying Water)
+  2. **Ṭāhir** (Pure but Not Purifying Water)
+  3. **Najis** (Impure Water)
+  
+  #### Ṭahūr (Purifying Water)
+  
+  *Ṭahūr* is water that remains upon the original state in which Allah created it, such as rainwater and water flowing from springs and rivers.
+  
+  It is pure in itself and purifying for other than itself, meaning if it touches a person's body or clothing, the prayer remains valid, and it may be used to perform *wuḍūʾ*.
+  
+  #### Ṭāhir (Pure but Not Purifying Water)
+  
+  *Ṭāhir* is water whose color, taste, or smell has undergone a substantial change due to something that is itself pure.
+  
+  It remains pure in itself, so if it touches a person's body or clothing, the prayer remains valid. However, it cannot be used to perform *wuḍūʾ*. It may still be used for ordinary purposes such as drinking, cooking, and washing.
+  
+  Only a substantial change affects the water's ruling. A slight change does not remove it from the category of *ṭahūr*. For example, a slight trace of rust or dough that causes only a minor change does not affect its ruling. Water only becomes *ṭāhir* when the change is substantial in a single characteristic, or when several slight changes together amount to a substantial overall change.
+  
+  #### Najis (Impure Water)
+  
+  *Najis* is water that has been changed by an impurity. Unlike *ṭāhir* water, any change caused by impurity, whether slight or substantial, renders the water impure. It may not be used for purification or ordinary purposes except in cases of necessity (*ḍarūrah*), such as when a person is dying of thirst and has no other water available.
+  
+  If the water is two *qullahs* (approximately 191¼ liters) or more, an impurity falling into it does not render it impure. If it is less than two *qullahs*, it becomes impure as soon as the impurity falls into it.
+  
+  # Al-Wuḍūʾ
+  
+  Wuḍūʾ is linguistically derived from *al-waḍāʾah (الوضاءة)*, which means cleanliness and comeliness.
+  
+  The technical definition of wuḍūʾ is washing the four specific limbs mentioned by Allah, the Mighty and Exalted. Allah, Glorified and Exalted, singled out these limbs in His Book, saying:
+  
+  > “O you who have believed, when you rise to [perform] prayer, wash your faces and your forearms to the elbows and wipe over your heads and wash your feet to the ankles.”
+  *(Sūrah al-Māʾidah 5:6)*
+  > 
+  
+  # Obligatory Acts Before *Wuḍūʾ*
+  
+  #### The Obligation of the *Tasmiyah*
+  
+  Saying *Bismillāh* before *wuḍūʾ* is obligatory based on the statement of the Prophet ﷺ: "There is no *wuḍūʾ* for one who does not mention the name of Allah over it."
+  
+  If a person forgets to say the *tasmiyah* until after completing *wuḍūʾ*, the *wuḍūʾ* remains valid because the obligation is waived due to forgetfulness. However, if a person remembers during *wuḍūʾ* that they did not say *Bismillāh*, then according to the *madhhab*, they must begin their *wuḍūʾ* again from the beginning after saying *Bismillāh*. Deliberately leaving the *tasmiyah* invalidates the *wuḍūʾ*.
+  
+  The *tasmiyah* is also obligatory before *ghusl*, *tayammum*, washing the hands after waking from night sleep, and washing the deceased.
+  
+  When washing the hands after waking from night sleep before *wuḍūʾ*, two separate intentions and two *tasmiyah*s are required. The first are for washing the hands, and the second are for the *wuḍūʾ* itself.
+  
+  #### Washing the Hands After Waking from Night Sleep
+  
+  A person who wakes from sleep at night must wash their hands three times with both the intention and the *tasmiyah* before placing them into a vessel of water. This is based on the statement of the Prophet ﷺ:
+  
+  > "When any of you rises from his sleep, let him not dip his hand into the vessel until he washes it three times, for he does not know where his hand spent the night."
+  > 
+  
+  # The Conditions of *Wuḍūʾ*
+  
+  There are eight conditions[^1] for the validity of *wuḍūʾ*. They are:
+  
+  1. **The cause requiring *wuḍūʾ* must have ceased** — A person must no longer be passing urine, stool, or wind before performing *wuḍūʾ*.
+  2. **Intention (*niyyah*)** — The intention must be made before beginning *wuḍūʾ*. If someone starts washing the limbs without intending *wuḍūʾ* and only forms the intention later, the *wuḍūʾ* is not valid.
+  3. **Islam** — The *wuḍūʾ* of a disbeliever is not valid.
+  4. **Sanity** — The *wuḍūʾ* of an insane person is not valid.
+  5. **Discernment (*tamyīz*)** — This refers to a child who has reached the age of seven. The *wuḍūʾ* of a child younger than seven is not valid.
+  6. **Pure and permissible water** — *Wuḍūʾ* is not valid with impure water or with water that is not permissible to use.
+  7. **Removing anything that prevents water from reaching the skin** — Anything that forms a physical barrier between the water and the skin must be removed. Mere color does not affect the validity of *wuḍūʾ*. For example, nail polish must be removed, while the stain left by henna after it has been washed off does not affect the validity of *wuḍūʾ*.
+  8. ***Istinjāʾ*** — *Istinjāʾ* is a condition for the validity of *wuḍūʾ*, as discussed previously.
+  
+  # The Obligatory Acts of *Wuḍūʾ*
+  
+  There are six obligatory acts (*furūḍ*) of *wuḍūʾ*. Unlike conditions, which must exist before *wuḍūʾ* begins, the obligatory acts are the actions that make up the *wuḍūʾ* itself. Leaving out any one of them, whether deliberately, through forgetfulness, or out of ignorance, invalidates the *wuḍūʾ*.
+  
+  1. **Washing the face** — The entire face must be washed, including rinsing the mouth and nose. Only a minimal rinsing of the mouth is required, so wearing braces or a retainer does not affect the validity of *wuḍūʾ*.
+  2. **Washing the hands** — The hands must be washed from the fingertips up to and including the elbows.
+  3. **Wiping the head** — The entire head must be wiped, including the ears.
+  4. **Washing the feet** — The feet must be washed up to and including the ankles.
+  5. **Order (*tartīb*)** — The limbs must be washed in the prescribed order: the face, then the hands, then wiping the head, followed by washing the feet.
+  6. **Continuity (*muwālāh*)** — The limbs should be washed one after another without a long break between them. The general guideline is that the previous limb should not dry under normal conditions before washing the next one.
+  
+  # Wiping Over Socks
+  
+  It is permissible to wipe over cotton socks instead of washing the feet during *wuḍūʾ*, provided the following conditions are met:
+  
+  1. **They must be worn after completing *wuḍūʾ*** — The socks must be put on after completing a full *wuḍūʾ* with water.
+  2. **They must cover the entire area that must be washed** — The socks must cover the feet up to and including the ankles.
+  3. **They must be suitable for walking** — The socks should be suitable for normal, everyday walking.
+  4. **They must remain secure on the feet** — The socks should stay securely on the feet when worn. They may be secured with a drawstring or similar fastening if needed. Something that does not function as a proper sock, such as a plastic bag, does not suffice.
+  5. **They must be permissible to use** — For example, the socks must not be stolen or bought with unlawful money.
+  6. **They must be made from pure materials** — For example, socks made from cotton are considered pure.
+  7. **They must not be transparent** — The skin beneath the socks should not be visible.
+  
+  ### The Duration of Wiping Over Socks
+  
+  - **Residents** may wipe over their socks for **one day and one night (24 hours)**.
+  - **Travelers** may wipe over their socks for **three days and three nights (72 hours)**, provided their journey is permissible. A person who travels for the purpose of committing a sin is limited to the resident's duration.
+  
+  The wiping period begins from the **first nullification of *wuḍūʾ*** after putting on the socks, not from the time the socks are worn or from the first time they are wiped.
+  
+  If a person's status changes between resident and traveler during the wiping period, they follow the resident's shorter time limit. If a traveler becomes a resident after more than **one day and one night** has already passed since the first nullification of *wuḍūʾ*, their *wuḍūʾ* becomes invalid, and they must perform *wuḍūʾ* again.
+  
+  If a person is unsure when the wiping period began, they should act upon certainty and apply the resident's shorter time limit.
+  
+  # Wiping Over a Bandage
+  
+  It is permissible to wipe over a bandage or cast if it was applied while in a state of purity and does not cover more than is medically necessary.
+  
+  If the bandage can be removed without causing harm, it must be removed before performing *wuḍūʾ*. If removing it would delay healing, worsen the injury, or cause significant pain, it may remain in place.
+  
+  The ruling then depends on the following situations:
+  
+  - **Applied while in a state of purity and covering only the necessary area** — Wash the exposed parts of the limb and wipe over the bandage. No *tayammum* is required.
+  - **Applied while in a state of purity but covering more than necessary** — If the extra portion can be removed without harm, it must be removed. If it cannot, wipe over the necessary area and perform *tayammum* for the excess.
+  - **Applied without being in a state of purity** — Wiping over the bandage is not valid. Instead, wash the exposed parts of the limb and perform *tayammum* for the bandaged area. If there is more than one bandaged limb, a separate *tayammum* is performed for each one.
+  
+  If a bandage applied without purity also covers more than is necessary, any excess that can be safely removed must be removed. Otherwise, the ruling remains the same: wash the exposed areas and perform *tayammum* for the covered portion.
+  
+  # Nullifiers of *Wuḍūʾ*
+  
+  The following eight matters nullify *wuḍūʾ* and place a person in a state of minor ritual impurity (*ḥadath*):
+  
+  1. **Anything exiting from the front or back passage** — Any discharge from either passage nullifies *wuḍūʾ*, whether little or much, common or uncommon.
+  2. **Urine or stool exiting from another part of the body, or a large amount of blood, vomit, or pus** — If urine or stool exits from an abnormal location, it nullifies *wuḍūʾ* regardless of the amount. Other substances, such as blood, vomit, or pus, only nullify *wuḍūʾ* if they are considered a large amount according to normal custom.
+  3. **Loss of consciousness** — Insanity, fainting, intoxication, and deep sleep all nullify *wuḍūʾ*. Light sleep does not nullify *wuḍūʾ* if a person is sitting or standing, but it does if they are reclining or lying down.
+  4. **Washing the deceased** — The person who directly washes the body of the deceased has their *wuḍūʾ* nullified. Simply assisting does not nullify *wuḍūʾ*.
+  5. **Eating camel meat** — Eating the meat of a camel, whether cooked or raw, nullifies *wuḍūʾ*. This ruling applies only to the meat itself, not to camel's milk or broth that contains no meat.
+  6. **Touching the genitals** — *Wuḍūʾ* is nullified by touching the front private parts or the anus of a human being with the hand, without a barrier.
+  7. **Physical contact with desire** — *Wuḍūʾ* is nullified when a man and a woman touch one another with desire and without a barrier.
+  8. **Apostasy** — Leaving Islam nullifies *wuḍūʾ*. If a person later returns to Islam, they must perform *ghusl*.
+  
+  #### General Principles
+  
+  - **Anything that requires *ghusl* also requires *wuḍūʾ*** — The only exception is death, which requires *ghusl* but not *wuḍūʾ*. If a person performs *ghusl* to remove major ritual impurity, they should also intend to remove minor ritual impurity so that both are lifted.
+  - **Certainty is not removed by doubt** — If a person is certain they have *wuḍūʾ* but later doubts whether it was broken, they remain in a state of *wuḍūʾ*. Likewise, if they are certain they lost their *wuḍūʾ* but later doubt whether they renewed it, they remain in a state of *ḥadath* until they perform *wuḍūʾ*.
+  
+  # The Recommended Acts (*Sunan*) of *Wuḍūʾ*
+  
+  The following are recommended acts of *wuḍūʾ*:
+  
+  - Facing the *qiblah*.
+  - Using the *siwāk* before rinsing the mouth.
+  - Washing the hands three times before beginning *wuḍūʾ* for anyone other than a person waking from night sleep, for whom it is obligatory.
+  - Beginning with rinsing the mouth (*maḍmaḍah*), followed by sniffing water into the nose (*istinshāq*), without separating between the two.
+  - Thoroughly rinsing the mouth and nose for one who is not fasting.
+  - Interlacing the fingers and toes.
+  - Running the fingers through a thick beard.
+  - Beginning with the right side when washing the limbs.
+  - Wiping the ears with fresh water after wiping the head.
+  - Washing slightly beyond the minimum required areas of the face, hands, and feet.
+  - Washing each limb a second and third time.
+  - Performing *wuḍūʾ* without the assistance of another person.
+  
+  After completing *wuḍūʾ*, it is recommended to raise one's gaze toward the sky and say:
+  
+  > أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ. اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ، وَاجْعَلْنِي مِنَ الْمُتَطَهِّرِينَ
+  > 
+  > 
+  > "I bear witness that there is no god but Allāh alone, without partner, and I bear witness that Muḥammad is His servant and Messenger. O Allāh, make me among those who constantly repent and make me among those who purify themselves."
+  > 
+  
+  It is also recommended to say:
+  
+  > سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا أَنْتَ، أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ
+  > 
+  > 
+  > "Glory be to You, O Allāh, and all praise is Yours. I bear witness that there is no god but You. I seek Your forgiveness and repent to You."
+  > 
+  
+  Al-Sāmurrī also recommended reciting Sūrah al-Qadr three times after completing *wuḍūʾ*.[^1]
+  
+  # Disliked Acts of *Wuḍūʾ*
+  
+  The following acts are disliked during *wuḍūʾ*:
+  
+  1. **Excessively rinsing the mouth and nose while fasting** — A fasting person should avoid excessive rinsing of the mouth or nose to prevent water from entering the throat. For those who are not fasting, thorough rinsing remains recommended.
+  2. **Blowing water from the nose with the right hand** — Water should be expelled from the nose using the left hand whenever possible. Likewise, cleaning the nose or removing any dirt or impurities from it should be done with the left hand rather than the right.
+  
+  [^1] *Kashshāf al-Qināʿ ʿan Matn al-Iqnāʿ, Al-Buhūtī (1/109)*
+  `
+  },
+
+  {
     slug: "the-division-of-tawhid-into-three-categories",
     title: "The Division of Tawḥīd into Three Categories",
-    summary: "This article explains the meaning of tawḥīd, its three categories, and the evidence for this classification from the Qur'an, the Sunnah, and the statements of the early scholars.",
+    summary: "This article explains the meaning of *tawḥīd*, its three categories, and the evidence for this classification from the Qur'an, the Sunnah, and the statements of the early scholars. It is summarized from *Al-Qawl al-Sadīd fī al-Radd ʿalā Man Ankira Taqsīm al-Tawḥīd* by Shaykh ʿAbd al-Razzāq ibn ʿAbd al-Muḥsin al-Badr, may Allah preserve him.",
     date: "2026-07-22",
     category: "ʿAqīdah",
     author: "Thaqib ibn Fazle",
     content: `
   
-  Tawḥīd is the foundation of Islam and the greatest right that Allah has over His creation. It is the central message of every Prophet, peace be upon them, and the first matter to which they called their people. Every act of worship, every righteous deed, and every aspect of a Muslim's religion is built upon tawḥīd. This article explains the meaning of tawḥīd, its three categories as established through the Qur'an and the Sunnah, and the statements of the early scholars affirming this classification.
+  Tawḥīd is the foundation of Islam and the greatest right that Allah has over His creation. It is the central message of every Prophet, peace be upon them, and the first matter to which they called their people. Every act of worship, every righteous deed, and every aspect of a Muslim's religion is built upon tawḥīd. This article explains the meaning of tawḥīd, its three categories as established through the Qur'an and the Sunnah, and the statements of the early scholars affirming this classification. Tawḥīd is the foundation of Islam and the greatest right that Allah has over His creation. It is the central message of every Prophet, peace be upon them, and the first matter to which they called their people. Every act of worship, every righteous deed, and every aspect of a Muslim's religion is built upon tawḥīd. This article explains the meaning of tawḥīd, its three categories as established through the Qur'an and the Sunnah, and the statements of the early scholars affirming this classification. It is extracted from *Al-Qawl al-Sadīd fī al-Radd ʿalā Man Ankira Taqsīm al-Tawḥīd* by Shaykh ʿAbd al-Razzāq ibn ʿAbd al-Muḥsin al-Badr, may Allah preserve him.
+
   
   # An Introduction to Tawḥīd & It's Categories
   
   Tawḥīd is the foundation and greatest pillar of Islam. It is the central message of every Prophet, peace be upon them, and the basis of every act of worship. For this reason, the first thing the Prophets called their people to was worshipping Allah alone and correcting their beliefs. 
   
-  The word *tawḥīd* comes from the Arabic root *waḥḥada* (وحّد), meaning "to make one" or "to declare something to be one." Linguistically, *tawḥīd* means oneness. In Islam, it means singling out Allah alone in everything that belongs exclusively to Him, especially in worship. Just as a tree cannot survive without healthy roots, no act of worship can be accepted without tawḥīd. 
+  The word *tawḥīd* comes from the Arabic root *waḥḥada* (وحّد), meaning "to make one" or "to declare something to be one." Linguistically, *tawḥīd* means oneness. In Islam, it means singling out Allah alone in everything that belongs exclusively to Him. Just as a tree cannot survive without healthy roots, no act of worship can be accepted without tawḥīd. 
   
   A comprehensive induction (*istiqrāʾ*) of the Qur'an and the Sunnah shows that tawḥīd falls under three categories:
   
