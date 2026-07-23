@@ -10,6 +10,288 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "the-division-of-tawhid-into-three-categories",
+    title: "The Division of Tawḥīd into Three Categories",
+    summary: "This article explains the meaning of tawḥīd, its three categories, and the evidence for this classification from the Qur'an, the Sunnah, and the statements of the early scholars.",
+    date: "2026-07-22",
+    category: "ʿAqīdah",
+    author: "Thaqib ibn Fazle",
+    content: `
+  
+  Tawḥīd is the foundation of Islam and the greatest right that Allah has over His creation. It is the central message of every Prophet, peace be upon them, and the first matter to which they called their people. Every act of worship, every righteous deed, and every aspect of a Muslim's religion is built upon tawḥīd. This article explains the meaning of tawḥīd, its three categories as established through the Qur'an and the Sunnah, and the statements of the early scholars affirming this classification.
+  
+  # An Introduction to Tawḥīd & It's Categories
+  
+  Tawḥīd is the foundation and greatest pillar of Islam. It is the central message of every Prophet, peace be upon them, and the basis of every act of worship. For this reason, the first thing the Prophets called their people to was worshipping Allah alone and correcting their beliefs. 
+  
+  The word *tawḥīd* comes from the Arabic root *waḥḥada* (وحّد), meaning "to make one" or "to declare something to be one." Linguistically, *tawḥīd* means oneness. In Islam, it means singling out Allah alone in everything that belongs exclusively to Him, especially in worship. Just as a tree cannot survive without healthy roots, no act of worship can be accepted without tawḥīd. 
+  
+  A comprehensive induction (*istiqrāʾ*) of the Qur'an and the Sunnah shows that tawḥīd falls under three categories:
+  
+  1. ***Tawḥīd al-Rubūbiyyah** (the Oneness of Allah in His Lordship)*
+  2. ***Tawḥīd al-Ulūhiyyah** (the Oneness of Allah in His Divinity)*
+  3. ***Tawḥīd al-Asmāʾ wa-al-Ṣifāt** (the Oneness of Allah in His Names and Attributes).*
+  
+  Although some ignorant individuals claim that this classification is a blameworthy innovation introduced by Shaykh al-Islām Ibn Taymiyyah, it is in reality the result of gathering all the relevant texts of the Sharīʿah and deriving a complete classification. This is the same approach used by specialists in every field, just as the grammarians classified Arabic speech into nouns, verbs, and particles through *istiqrāʾ*, even though the early Arabs themselves never expressed it in those terms.
+  
+  ### Tawḥīd al-Rubūbiyyah
+  
+  Tawḥīd al-Rubūbiyyah means firmly believing that Allah alone is the Creator, the Provider, the Giver of life and death, and the One who manages every affair of His creation. He has no partner in any of these actions.
+  
+  ### Tawḥīd al-Ulūhiyyah
+  
+  Tawḥīd al-Ulūhiyyah means singling out Allah alone in submission, humility, love, reverence, and every other act of worship. He has no partner in any of them. The essence of this type of tawḥīd is realizing the meaning of *lā ilāha illā Allāh* ("There is no god but Allah"). This statement is made up of two parts: negation and affirmation. The negation means rejecting every object of worship besides Allah, whatever it may be, in every form of worship. The affirmation means directing every act of worship to Allah alone, sincerely, and in the manner He prescribed through His Messengers, peace and blessings be upon them.
+  
+  ### Tawḥīd al-Asmāʾ wa-al-Ṣifāt
+  
+  Tawḥīd al-Asmāʾ wa-al-Ṣifāt means firmly believing in the names and attributes of Allah exactly as they are mentioned in the Qur'an and the Sunnah. They are affirmed without distortion (*taḥrīf*), denial (*taʿṭīl*), asking how (*takyīf*), or likening them to the creation (*tamthīl*). This category is built upon two principles. The first is believing that Allah, the Mighty and Majestic, is completely unlike His creation in His names and attributes. The second is affirming every name and attribute by which Allah described Himself, or by which His Messenger ﷺ described Him, in a manner that befits His perfection and majesty, while accepting that the reality of *how* (*kayfiyyah*) these attributes are beyond human understanding.
+  
+  # **Evidences for the Categories of Tawḥīd**
+  
+  ### Evidences for Tawḥīd al-Rubūbiyyah
+  
+  Among the proofs of *Tawḥīd al-Rubūbiyyah* is the statement of Allah, the Exalted:
+  
+  And His statement:
+  
+  > All praise is for Allah, Lord of the worlds.
+  > 
+  > 
+  > *(Sūrah al-Fātiḥah 1:2)*
+  > 
+  
+  And His statement:
+  
+  > Unquestionably, His is the creation and the command. Blessed is Allah, Lord of the worlds.
+  > 
+  > 
+  > *(Sūrah al-Aʿrāf 7:54)*
+  > 
+  
+  The Qur'an repeatedly argues against the disbelievers by using their own admission that Allah alone is the Lord. Since they already accepted His Lordship, the Qur'an uses this as proof that He alone deserves to be worshipped. Allah asks them questions whose answers they already know and admit. Once they acknowledge His Lordship, He refutes them by showing that only He deserves worship. He also rebukes them for associating partners with Him even though they admit that He alone is the Lord. Whoever believes that Allah alone is the Lord must also believe that He alone has the right to be worshipped.
+  
+  One example of this is His statement:
+  
+  > Say, "To whom belongs the earth and whoever is in it, if you know?" They will say, "To Allah."
+  > 
+  > 
+  > *(Sūrah al-Muʾminūn 23:84-85)*
+  > 
+  
+  After they admitted this, Allah rebuked them for worshipping others besides Him by saying:
+  
+  > Say, "Then will you not remember?"
+  > 
+  > 
+  > *(Sūrah al-Muʾminūn 23:85)*
+  > 
+  
+  ### Evidences for Tawḥīd al-Ulūhiyyah
+  
+  Among the proofs of *Tawḥīd al-Ulūhiyyah* is the statement of Allah, the Exalted:
+  
+  And His statement:
+  
+  > It is You alone we worship, and You alone we ask for help.
+  > 
+  > 
+  > *(Sūrah al-Fātiḥah 1:5)*
+  > 
+  
+  And His statement:
+  
+  > O mankind, worship your Lord, who created you and those before you, so that you may become righteous.
+  > 
+  > 
+  > *(Sūrah al-Baqarah 2:21)*
+  > 
+  
+  And His statement:
+  
+  > So worship Allah, being sincere to Him in religion. Unquestionably, sincere religion belongs to Allah. As for those who take protectors besides Him, they say, "We only worship them so that they may bring us closer to Allah."
+  > 
+  > 
+  > *(Sūrah al-Zumar 39:2-3)*
+  > 
+  
+  ### Evidences for Tawḥīd al-Asmāʾ wa-al-Ṣifāt
+  
+  Among the proofs of *Tawḥīd al-Asmāʾ wa-al-Ṣifāt* is the statement of Allah, the Exalted:
+  
+  And His statement:
+  
+  > The Most Merciful, the Most Compassionate, Master of the Day of Judgment.
+  > 
+  > 
+  > *(Sūrah al-Fātiḥah 1:3-4)*
+  > 
+  
+  And His statement:
+  
+  > Say, "Call upon Allah or call upon al-Raḥmān. Whichever you call upon, to Him belong the Most Beautiful Names."
+  > 
+  > 
+  > *(Sūrah al-Isrāʾ 17:110)*
+  > 
+  
+  And His statement:
+  
+  > Do you know of anyone comparable to Him?
+  > 
+  > 
+  > *(Sūrah Maryam 19:65)*
+  > 
+  
+  And His statement:
+  
+  > Allah. There is no god but He. To Him belong the Most Beautiful Names.
+  > 
+  > 
+  > *(Sūrah Ṭā Hā 20:8)*
+  > 
+  
+  And His statement:
+  
+  > There is nothing like Him, and He is the All-Hearing, the All-Seeing.
+  > 
+  > 
+  > *(Sūrah al-Shūrā 42:11)*
+  > 
+  
+  # Scholars Who Divided Tawhid into Categories
+  
+  ### Imām Abū Ḥanīfah al-Nuʿmān ibn Thābit al-Kūfī (d. 150 AH)
+  
+  Imām Abū Ḥanīfah said:
+  
+  > "Allāh is invoked from above, not from below, for the below is not in any way a description befitting rubūbiyyah and ulūhiyyah."
+  > 
+  > 
+  > *(al-Fiqh al-Absaṭ, p. 51).*
+  > 
+  
+  His statement, "a description befitting rubūbiyyah," affirms *Tawḥīd al-Rubūbiyyah*. His statement, "and ulūhiyyah," affirms *Tawḥīd al-Ulūhiyyah*.
+  
+  ### Abū Yūsuf Yaʿqūb ibn Ibrāhīm ibn Ḥabīb al-Kūfī (d. 182 AH)
+  
+  Ibn Mandah narrated in *al-Tawḥīd*:
+  
+  > Muḥammad ibn Abī Jaʿfar al-Sarakhsī informed us. Muḥammad ibn Salamah al-Balkhī narrated to us. Bishr ibn al-Walīd al-Qāḍī narrated to us, from Abū Yūsuf al-Qāḍī, who said:
+  > 
+  > 
+  > "Tawḥīd is not established by analogy (qiyās). Have you not heard the statement of Allāh, Mighty and Majestic, in the verses in which He describes Himself as knowing, powerful, strong, possessing. He did not say: 'I am knowing, powerful, due to such-and-such reason I have power, by such-and-such cause I know, and by this meaning I possess.' For that reason, analogy is not permissible in tawḥīd, and He is not known except by His names, nor described except by His attributes. Allāh, Exalted is He, has said in His Book: O mankind, worship your Lord, who created you and those before you, that you may become righteous, and He said: Have they not looked into the realm of the heavens and the earth and everything that Allāh has created?, and He said: Indeed, in the creation of the heavens and the earth and the alternation of the night and the day and the ships which sail through the sea..."
+  > 
+  
+  Abū Yūsuf also said:
+  
+  > "Allāh did not say, 'Look at how I am the Knowing, how I am the Powerful, how I am the Creator.' Rather, He said, 'Look at how I created.' Then He said: And Allāh created you; then He will take you in death, and He said: And in yourselves. Then will you not see? That is, know that these things have a Lord who turns them about, brings them into being, and returns them, and that you are a created being and possess whatever comes from your being created. Allāh, Mighty and Majestic, only pointed out His creation by means of what He created so that they might know that they have a Lord whom they should worship, obey, and affirm as One, so that they might know that He is their Creator, not that they came into being of themselves. Then He named Himself, saying: I am al-Raḥmān, I am al-Raḥīm, I am the Creator, I am the Powerful, I am the Possessor. That is, this One who brought you into being is named the Possessor, the Powerful, Allāh, al-Raḥmān, al-Raḥīm, and is described by these names."
+  > 
+  
+  He also said:
+  
+  > "Allāh is known by His signs and by His creation, described by His attributes, and named by His names, as He described in His Book, and as conveyed to creation by His Messenger."
+  > 
+  
+  He also said:
+  
+  > "Allāh, Mighty and Majestic, created you and placed in you faculties and organs, some of your organs incapable of what others can do. He moves you from one state to another so that you may know you have a Lord. He made your own self a proof against you of His knowability, that you might come to know Him through His creation. Then He described Himself, saying: I am the Lord, I am al-Raḥmān, I am Allāh, I am the Powerful, I am the Possessor. So He is described by His attributes and named by His names. Allāh has commanded us to affirm His Oneness, and tawḥīd is not established by analogy, for analogy applies to something that has a likeness and an equivalent, and Allāh, Exalted and Sanctified is He, has no likeness and no equivalent. Blessed is Allāh, the Best of Creators."
+  > 
+  
+  He then said:
+  
+  > "And how can tawḥīd be grasped by analogy, when He is the Creator of creation, unlike creation, there is nothing like unto Him, Blessed and Exalted is He. Allāh, Mighty and Majestic, has commanded you to believe in everything His Prophet ﷺ brought. He has commanded you to be a follower, a listener, and an obedient one. Had the community been given latitude to pursue tawḥīd and seek belief by their own opinion, analogy, and desire, they would have gone astray. Have you not heard the statement of Allāh, Mighty and Majestic: But if the truth had followed their desires, the heavens and the earth and whoever is in them would have been ruined? So understand what this explains."[^1]
+  > 
+  
+  This narration from Abū Yūsuf contains the three categories of tawḥīd: *Tawḥīd al-Rubūbiyyah*, *Tawḥīd al-Ulūhiyyah*, and *Tawḥīd al-Asmāʾ wa-al-Ṣifāt*.
+  
+  ### Ibn Ḥibbān al-Bustī (d. 354 AH)
+  
+  Ibn Ḥibbān said in the introduction to *Rawḍat al-ʿUqalāʾ wa-Nuzhat al-Fuḍalāʾ*:
+  
+  > "Praise be to Allāh, alone in the oneness of ulūhiyyah, mighty in the greatness of rubūbiyyah, who watches over the souls of the world regarding their appointed terms, and who knows their vicissitudes and states, who bestows upon them His successive blessings, who favors them with His abundant graces, who brought forth creation, when He willed, without helper or advisor, and created mankind as He willed, without like or equal, so His will proceeded among them by His power, and His decision took effect among them by His might..."
+  > 
+  > 
+  > *(Rawḍat al-ʿUqalāʾ wa-Nuzhat al-Fuḍalāʾ).*
+  > 
+  
+  In this passage, he mentions the three categories of tawḥīd: *Tawḥīd al-Ulūhiyyah*, *Tawḥīd al-Rubūbiyyah*, and *Tawḥīd al-Asmāʾ wa-al-Ṣifāt*.
+  
+  ### Ibn Abī Zayd al-Qayrawānī al-Mālikī (d. 386 AH)
+  
+  Ibn Abī Zayd said in the introduction to his creed:
+  
+  > "Among that is belief with the heart and utterance with the tongue that Allāh is One God, no god besides Him, no like Him and no equal, no child of His and no parent of His, no consort of His and no partner of His; His firstness has no beginning, and His lastness has no end; those who would describe Him cannot reach the essence of His attribute, and those who reflect cannot encompass His affair..." until he said: "...exalted is He above there being in His dominion anything He does not will, or anyone independent of Him, Creator of all things; unquestionably He is the Lord of His servants and the Lord of their deeds, and the One who determines their movements and their appointed terms..."
+  > 
+  > 
+  > *(al-Risālah by Ibn Abī Zayd al-Qayrawānī).*
+  > 
+  
+  In this passage, he mentions the three categories of tawḥīd: *Tawḥīd al-Ulūhiyyah*, *Tawḥīd al-Rubūbiyyah*, and *Tawḥīd al-Asmāʾ wa-al-Ṣifāt*.
+  
+  ### Imām Abū ʿAbd Allāh ʿUbayd Allāh ibn Muḥammad ibn Baṭṭah al-ʿUkbarī (d. 387 AH)
+  
+  Ibn Baṭṭah said in *al-Ibānah ʿan Sharīʿat al-Firqah al-Nājiyah wa-Mujānabat al-Firaq al-Madhmūmah*:
+  
+  > "The foundation of belief in Allāh, which creation is obligated to believe in order to affirm belief in Him, consists of three things: The first: that the servant believe in His rabbāniyyah, so as thereby to be distinguished from the doctrine of the negationists (ahl al-taʿṭīl), who do not affirm a Maker. The second: that he believe in His waḥdāniyyah, so as thereby to be distinguished from the doctrines of the polytheists, who acknowledged the Maker yet associated others with Him in worship. The third: that he believe Him to be described with the attributes with which He must necessarily be described of knowledge, power, wisdom, and all else with which He described Himself in His Book. For we know that many who acknowledge Him and affirm His oneness in unqualified terms may nevertheless commit unbelief (ilḥād) regarding His attributes, so that their unbelief in His attributes vitiates their tawḥīd..."
+  > 
+  > 
+  > *(al-Ibānah ʿan Sharīʿat al-Firqah al-Nājiyah by Ibn Baṭṭah, 693–694).*
+  > 
+  
+  Here, Ibn Baṭṭah explicitly states that the foundation of belief in Allah consists of three matters: *Tawḥīd al-Rubūbiyyah*, *Tawḥīd al-Ulūhiyyah* (expressed here as *waḥdāniyyah* in worship), and *Tawḥīd al-Asmāʾ wa-al-Ṣifāt*.
+  
+  ### Abū ʿAbd Allāh Muḥammad ibn Isḥāq ibn Yaḥyā ibn Mandah (d. 395 AH)
+  
+  In *Kitāb al-Tawḥīd wa-Maʿrifat Asmāʾ Allāh wa-Ṣifātihi*, Ibn Mandah devoted extensive chapters to the three categories of tawḥīd and gathered their proofs from the Qur'an and the Sunnah.
+  
+  Among the chapters related to *Tawḥīd al-Rubūbiyyah* are:
+  
+  - The oneness of Allah and His uniqueness.
+  - The beginning of creation.
+  - The creation of the Throne.
+  - Allah's decree before creation.
+  - The signs of His Lordship in creation.
+  - Qur'anic proofs establishing His Oneness.
+  - The creation of the heavens as evidence of His Lordship.[^2]
+  
+  Among the chapters related to *Tawḥīd al-Ulūhiyyah* are:
+  
+  - The Beautiful Names of Allah, through which He is worshipped, invoked, and remembered.
+  - The Greatest Name of Allah.[^3]
+  
+  Among the chapters related to *Tawḥīd al-Asmāʾ wa-al-Ṣifāt* is:
+  
+  - The attributes of Allah with which He described Himself in His Book and which His Messenger ﷺ conveyed to the Ummah.[^4]
+  
+  ### Mullā ʿAlī al-Qārī (d. 1014 AH)
+  
+  Despite being a Māturīdī in theology, Mullā ʿAlī al-Qārī affirmed this classification. He said in *Sharḥ al-Fiqh al-Akbar:*
+  
+  > "The opening of His statement, 'Praise be to Allāh, Lord of the worlds,' points to *Tawḥīd al-Rubūbiyyah*, upon which *Tawḥīd al-Ulūhiyyah* is built. It requires the servant to realize true worship, and this is the first obligation upon him: to know Allāh. In summary, *Tawḥīd al-ʿUbūdiyyah* necessitates *Tawḥīd al-Rubūbiyyah*, though not the reverse... Indeed, most sūrahs and verses of the Qur'an comprise these two types of tawḥīd. Rather, the Qur'an from beginning to end explains and establishes them. The Qur'an is either information about Allāh, His names, His attributes, and His actions, or a call to worship Him alone, or commands and prohibitions, or information about the reward of the people of tawḥīd, or information about the punishment of the people of shirk. Thus, the entire Qur'an concerns tawḥīd, its people, and their reward, and condemns shirk, its people, and their punishment..."
+  > 
+  > 
+  > *(Sharḥ al-Fiqh al-Akbar, pp. 9-10).*
+  > 
+  
+  He explains that the Qur'an revolves around the categories of tawḥīd, especially *Tawḥīd al-Rubūbiyyah* and *Tawḥīd al-Ulūhiyyah*, and that its verses consistently establish and explain them.
+  
+  Finally, no report is known from any of the Salaf rejecting this classification of tawḥīd. Rather, their books and statements contain numerous passages that clearly affirm these categories, whether explicitly by name or through their discussion of Allah's Lordship, His exclusive right to be worshipped, and His names and attributes. This classification was not introduced by Shaykh al-Islām Ibn Taymiyyah, nor is it a blameworthy innovation as some mistakenly claim. Rather, it is the result of a comprehensive induction (*istiqrāʾ*) of the Qur'an and the Sunnah and is firmly rooted in the writings of the early generations. Whoever studies the works of the Salaf will repeatedly find these three categories affirmed throughout their writings.
+  
+  # Conclusion
+  
+  The three categories of tawḥīd are not a later invention, but a classification derived through a comprehensive induction (*istiqrāʾ*) of the Qur'an and the Sunnah. The early scholars affirmed these categories in their books and teachings, demonstrating that they are firmly rooted in the understanding of the Salaf. Understanding tawḥīd in this manner helps clarify the complete message of the Qur'an regarding Allah's Lordship, His exclusive right to be worshipped, and His perfect names and attributes. Every Muslim should therefore learn tawḥīd, understand its categories, and worship Allah upon clear knowledge and sincere devotion, for it is the foundation of the religion and the key to success in this life and the Hereafter.
+  
+  [^1]: K*itāb al-Tawḥīd wa-Maʿrifat Asmāʾ Allāh wa-Ṣifātihi by Ibn Mandah (3/304–306).*
+  
+  [^2]: *Ibid (1/611–616).*
+  
+  [^3]: *Ibid (2/1446).*
+  
+  [^4]: *Ibid (3/7 to the end of the book).*
+  `
+  },
+
+  {
     slug: "the-importance-of-the-correct-aqidah",
     title: "The Importance of the Correct ʿAqīdah",
     summary: "This article examines the importance of the correct ʿaqīdah, showing that belief in Allah alone is the foundation of the religion, the purpose of creation, and the starting point of every prophetic call.",
@@ -169,7 +451,7 @@ export const posts: BlogPost[] = [
 
   # Conclusion
   The correct ʿaqīdah is the foundation upon which the entire religion is built. It was the first matter to which every Prophet called, the purpose for which mankind was created, and the basis upon which every act of worship is accepted by Allah. No deed, regardless of how great it may appear, can benefit a person without sound belief, just as no structure can remain standing without a firm foundation. It is therefore obligatory upon every Muslim to learn the correct ʿaqīdah, remain steadfast upon it, and give it precedence over all other matters, for through it one's religion is established and one's path to Allah is made clear.
-  
+
   [^1]: See Dr. Rabīʿ al-Madkhalī, *Manhaj al-Anbiyāʾ fī al-Daʿwah ilā Allāh Fīhi al-Ḥikmah wa al-ʿAql*, pp. 57-58.
   `
   },
