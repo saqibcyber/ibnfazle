@@ -10,9 +10,309 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "ghusl-according-to-the-hanbali-madhhab",
+    title: "Ghusl According to the Ḥanbalī Madhhab",
+    summary: "This article presents the rulings of ghusl according to the Ḥanbalī school, from Bidāyat al-ʿĀbid and Kashshāf al-Qināʿ.",
+    date: "2026-07-23",
+    category: "Fiqh",
+    author: "Thaqib ibn Fazle",
+    content: `
+  # *Ghusl* **According to the Ḥanbalī Madhhab**
+  
+  This article presents the rulings of *ghusl* according to the Ḥanbalī school. The material is summarized from *Bidāyat al-ʿĀbid wa-Kifāyat al-Zāhid* by Shaykh ʿAbd al-Raḥmān ibn ʿAbd Allāh al-Baʿlī al-Ḥanbalī and *Kashshāf al-Qināʿ ʿan Matn al-Iqnāʿ* by Shaykh Manṣūr ibn Yūnus al-Buhūtī, may Allah have mercy on them both.
+  
+  # The Definition of *Ghusl*
+  
+  Linguistically, *ghusl* means washing.
+  
+  Technically, *ghusl* is the act of washing the entire body with purifying (*ṭahūr*) water in a prescribed manner, together with the required intention (*niyyah*) and the *tasmiyah*.
+  
+  *Ghusl* is the ritual bath prescribed in Islam to remove a state of major ritual impurity (*janābah*), allowing a person to perform acts of worship that require ritual purity, such as prayer.
+  
+  # That Which Requires *Ghusl*
+  
+  There are seven situations in which *ghusl* becomes required according to the Ḥanbalī school:
+  
+  1. **Movement of semen without discharge** — If a person experiences the internal movement associated with ejaculation but prevents the semen from exiting, *ghusl* is still required. If they perform *ghusl* and the semen later exits without renewed pleasure, they do not need to repeat the *ghusl*.
+  2. **Discharge of semen with pleasure** — *Ghusl* becomes obligatory when semen exits with sexual pleasure. However, a person who wakes from sleep or regains consciousness after fainting and finds semen on their clothing or body must perform *ghusl*, even if they do not remember experiencing pleasure.
+  3. **Sexual intercourse** — *Ghusl* becomes obligatory when the glans of the penis enters the vagina or anus, even if no ejaculation occurs. This ruling applies regardless of whether the act itself was lawful or unlawful.
+  4. **Embracing Islam** — A person who accepts Islam after disbelief must perform *ghusl*, whether they were originally a non-Muslim or an apostate, and whether or not anything requiring *ghusl* occurred before accepting Islam.
+  5. **Menstruation** — A woman must perform *ghusl* after her menstrual bleeding ends before resuming acts of worship that require ritual purity.
+  6. **Postpartum bleeding (*nifās*)** — A woman must perform *ghusl* after her postpartum bleeding ends. If childbirth occurs without any postpartum bleeding, *ghusl* is not required according to the Ḥanbalī school, although *wuḍūʾ* is still required.
+  7. **Death** — A deceased Muslim must be washed before burial as an act of worship. The exception is the martyr who is killed in battle fighting in the cause of Allah, or the one killed unjustly, who is buried without being washed.
+  
+  #### Sleeping in a State of Major Ritual Impurity
+  
+  It is disliked for a person in a state of major ritual impurity (*janābah*) to sleep without first performing *wuḍūʾ*.
+  
+  A person is not required to perform *ghusl* immediately after entering a state of major ritual impurity unless the time for a prayer requiring *ghusl* has arrived. However, if they wish to delay *ghusl*, it is recommended that they first perform *wuḍūʾ* before going to sleep.
+  
+  # The Conditions for a Valid *Ghusl*
+  
+  For *ghusl* to be valid, the following seven conditions must be fulfilled:
+  
+  1. **The cause requiring *ghusl* must have ended** — For example, a woman cannot perform *ghusl* for menstruation until her menstrual bleeding has completely stopped.
+  2. **Intention (*niyyah*)** — A person must intend to remove major ritual impurity. Bathing solely to cool down, clean oneself, or for another non-ritual purpose does not fulfill the obligation of *ghusl*.
+  3. **Islam** — *Ghusl* performed by a non-Muslim is not valid as an act of worship.
+  4. **Sanity** — *Ghusl* is only valid from a person of sound mind.
+  5. **Discernment (*tamyīz*)** — *Ghusl* is only valid from someone who has reached the age of discernment.
+  6. **Using pure, permissible *ṭahūr* water** — The water used must be ritually pure and lawful to use. Water that is impure or unlawfully acquired does not fulfill this condition.
+  7. **Removing anything that prevents water from reaching the body** — Anything that forms a barrier preventing water from reaching the skin, such as paint, nail polish, or similar substances, must be removed before performing *ghusl*.
+  
+  #### Combining Multiple Intentions in *Ghusl*
+  
+  If more than one reason for *ghusl* exists at the same time, a single *ghusl* is generally sufficient.
+  
+  This includes situations where:
+  
+  - Two or more obligatory reasons for *ghusl* occur together. In this case, one *ghusl* with the intention of removing major ritual impurity is sufficient for all of them.
+  - An obligatory *ghusl* and a recommended *ghusl* occur together, such as a person in a state of *janābah* performing *ghusl* on Friday. If they intend the obligatory *ghusl*, the recommended Friday *ghusl* is also fulfilled.
+  
+  If a person intends only a recommended *ghusl* while an obligatory *ghusl* is required, it only removes the major ritual impurity if they had forgotten they were in a state of major ritual impurity. However, if they were aware that *ghusl* was obligatory and intentionally intended only the recommended *ghusl*, their major ritual impurity is not removed.
+  
+  # The Minimum Sufficient *Ghusl*
+  
+  The minimum *ghusl* consists of only the obligatory acts required to remove major ritual impurity.
+  
+  To perform a valid minimum *ghusl*:
+  
+  1. **Remove any physical impurity (*najāsah*) and anything that prevents water from reaching the skin**, such as paint, nail polish, or similar substances.
+  2. **Make the intention (*niyyah*)** to remove major ritual impurity or to make acts of worship requiring purification permissible.
+  3. **Say "Bismillāh."**
+  4. **Wash the entire body with water**, ensuring that water reaches every part of the body. Simply wiping the body is not sufficient.
+  5. **Rinse the mouth and sniff water into the nose**, as both are obligatory parts of *ghusl*.
+  6. **Ensure that water reaches all of the hair**, including both its outer surface and its roots, whether the hair is loose or braided.
+  
+  # The Complete *Ghusl*
+  
+  The complete *ghusl* includes all of the obligatory acts along with the recommended Sunnah acts. It is performed as follows:
+  
+  1. **Make the intention (*niyyah*)** to remove major ritual impurity or to make acts of worship requiring purification, such as prayer, permissible.
+  2. **Say "Bismillāh."**
+  3. **Wash the hands three times.**
+  4. **Wash any impurity from the body**, including the private parts or any other area affected by impurity.
+  5. **Rub the hands against the ground, a wall, or similar surface**, then wash them to remove any remaining impurity.
+  6. **Perform a complete *wuḍūʾ*.** It is permissible to delay washing the feet until the end of the *ghusl*.
+  7. **Pour three handfuls of water over the head**, ensuring that the water reaches the roots of the hair. Running the fingers through the hair before pouring the water is recommended.
+  8. **Wash the rest of the body three times**, beginning with the right side and then the left.
+  9. **Rub the body with the hands** to help ensure that water reaches every part of the body.
+  10. **Ensure water reaches all concealed areas**, such as the roots of the hair, the ears, beneath the chin, the armpits, the navel, between the buttocks, behind the knees, between the fingers and toes, skin folds, and any other places where water may not naturally reach.
+  11. **Move to another place and wash the feet**, if they were not washed during *wuḍūʾ*.
+  
+  A strong and reasonable belief (*ghalabat al-ẓann*) that water has reached the entire body is sufficient. Absolute certainty is not required.
+  
+  It is recommended to wash the body continuously without long interruptions. However, unlike *wuḍūʾ*, neither continuity (*muwālāh*) nor washing the body in a particular sequence (*tartīb*) is obligatory.
+  
+  #### Recommended Acts When Embracing Islam
+  
+  When a person embraces Islam, it is recommended to:
+  
+  - Perform *ghusl* using *sidr* leaves if available.
+  - Remove the hair of disbelief by shaving the head (for men).
+  - Trim the pubic hair and remove the underarm hair.
+  - Wash the clothes worn before embracing Islam.
+  
+  Circumcision is obligatory for a male convert if he is legally accountable and it is not expected to cause him harm.
+  
+  #### Recommended Acts for *Ghusl* After Menstruation or Postpartum Bleeding
+  
+  After *ghusl* following menstruation or postpartum bleeding (*nifās*), it is recommended to:
+  
+  - Use *sidr* leaves while bathing, if available.
+  - Apply musk to the affected area after completing *ghusl* to remove any remaining odor, provided the woman is not in a state of *iḥrām*.
+  - If musk is unavailable, another perfume may be used. If perfume is unavailable, clay may be used. If none of these are available, washing with *ṭahūr* water alone is sufficient.
+  
+  # Recommended *Ghusl*
+  
+  In addition to the obligatory *ghusl*s, the Ḥanbalī school recommends performing *ghusl* on the following occasions:
+  
+  1. **Before the Friday (*Jumuʿah*) prayer** — This is the most emphasized of the recommended *ghusl*s. It is recommended for anyone attending the Friday prayer and should be performed on Friday after the onset of Fajr, preferably immediately before leaving for the prayer. If a person performs this *ghusl* and later breaks their *wuḍūʾ*, the *ghusl* remains valid and only *wuḍūʾ* needs to be renewed.
+  2. **Before the ʿEid prayer** — It is recommended for anyone attending the ʿEid prayer and should be performed on the morning of ʿEid after the onset of Fajr.
+  3. **Before the eclipse (*ṣalāt al-kusūf*) and rain (*ṣalāt al-istisqāʾ*) prayers** — These *ghusl*s are recommended because they are congregational acts of worship.
+  4. **After washing a deceased person** — It is recommended for the person who washed the deceased to perform *ghusl* afterward.
+  5. **After recovering from insanity or unconsciousness** — If no semen was discharged during the period of insanity or unconsciousness, *ghusl* is recommended. If semen was discharged, then *ghusl* is obligatory.
+  6. **For a woman experiencing abnormal uterine bleeding (*istiḥāḍah*)** — It is recommended for her to perform *ghusl* before each prayer.
+  7. *Before entering the state of *****iḥrām*** — This recommendation applies even to a woman who is menstruating or experiencing postpartum bleeding.
+  8. **Before entering Makkah** — It is recommended to perform *ghusl* before entering the city.
+  9. **Before entering the Sacred Precinct (*Ḥaram*) of Makkah** — It is also recommended to perform *ghusl* before entering the *Ḥaram*.
+  10. **Before standing at ʿArafah** — It is recommended to perform *ghusl* before the standing at ʿArafah during Ḥajj.
+  11. **Before spending the night at Muzdalifah** — It is recommended to perform *ghusl* before staying at Muzdalifah.
+  12. *Before stoning the *****jamarāt*** — It is recommended to perform *ghusl* before throwing the pebbles during Ḥajj.
+  13. *Before *****Ṭawāf al-Ziyārah*** — It is recommended to perform *ghusl* before the main *ṭawāf* of Ḥajj.
+  14. *Before *****Ṭawāf al-Wadāʿ*** — It is recommended to perform *ghusl* before the farewell *ṭawāf*.
+  
+  # Acts Prohibited for a Person in a State of Ritual Impurity
+  
+  The following rulings apply to a person in a state of ritual impurity, whether minor or major:
+  
+  1. **Performing prayer** — It is prohibited to perform any prayer while in a state of ritual impurity. This includes obligatory and voluntary prayers, the funeral prayer, and the prostration of Qur'anic recitation.
+  2. **Performing *ṭawāf*** — It is prohibited to perform *ṭawāf*, whether obligatory or voluntary.
+  3. **Touching the *muṣḥaf*** — It is prohibited to touch the *muṣḥaf* without complete ritual purity. However, it is permissible to touch it through a barrier, such as a cloth. It is also permissible to handle books of *tafsīr*, *ḥadīth*, *fiqh*, and similar works that contain Qur'anic verses, as they are not considered a *muṣḥaf*.
+  
+  The following additional rulings apply specifically to a person in a state of major ritual impurity:
+  
+  1. **Remaining in the mosque** — It is prohibited to remain in the mosque. However, it is permissible to pass through the mosque without remaining there, provided there is no risk of soiling it. This ruling also applies to menstruating women and women experiencing postpartum bleeding.
+  2. **Reciting the Qur'an** — It is prohibited to recite one complete verse or more from the Qur'an. However, it is permissible to recite less than a complete verse, engage in the remembrance of Allah (*dhikr*), or say words that coincide with the Qur'an, such as the *basmalah,* provided they are not intended as Qur'anic recitation.
+  `
+  },
+
+  {
+    slug: "etiquettes-of-relieving-oneself-in-the-hanbali-madhhab",
+    title: "Etiquettes of Relieving Oneself in the Ḥanbalī Madhhab",
+    summary: "This article presents the etiquettes and rulings related to relieving oneself according to the Ḥanbalī school, from Bidāyat al-ʿĀbid and Kashshāf al-Qinā.",
+    date: "2026-07-23",
+    category: "Fiqh",
+    author: "Thaqib ibn Fazle",
+    content: `
+  
+  This article presents the etiquettes and rulings related to relieving oneself according to the Ḥanbalī school, covering the methods of cleansing, recommended and prohibited etiquettes, *istinjāʾ*, *istijmār*, and related rulings. The material is summarized from *Bidāyat al-ʿĀbid wa-Kifāyat al-Zāhid* by Shaykh ʿAbd al-Raḥmān ibn ʿAbd Allāh al-Baʿlī al-Ḥanbalī and *Kashshāf al-Qināʿ ʿan Matn al-Iqnāʿ* by Shaykh Manṣūr ibn Yūnus al-Buhūtī, may Allah have mercy on them both.
+  
+  # Methods of Cleansing
+  
+  The following are the valid methods of cleansing after relieving oneself, listed from least to most preferred:
+  
+  1. ***Istijmār*** — Cleansing the private parts with toilet paper, stones, or another suitable cleansing material. This method is permissible when its conditions are met.
+  2. ***Istinjāʾ*** — Cleansing the private parts with water. This is superior to *istijmār* because it removes both the impurity and its traces.
+  3. **Combining *istijmār* and *istinjāʾ*** — First cleanse with toilet paper, stones, or another suitable material, then wash with water. This is the most complete and preferred method.
+  
+  # Legal Ruling
+  
+  Cleansing after relieving oneself is obligatory after anything exits from the private parts that leaves a trace requiring cleansing. It is also a condition for the validity of *wuḍūʾ* and *tayammum*. A person who intentionally neglects it without a valid excuse is sinful.
+  
+  Cleansing is **not** required in the following cases:
+  
+  1. **Passing wind.**
+  2. **A pure substance exits**, such as a small stone.
+  3. **Nothing remains requiring cleansing** after the discharge.
+  
+  Apart from these exceptions, cleansing is obligatory after any discharge that leaves a trace, whether common or uncommon.
+  
+  #### When *Istijmār* Alone Is Sufficient
+  
+  *Istijmār* alone is valid provided that:
+  
+  1. The cleansing material is pure.
+  2. The material effectively removes the impurity.
+  3. The material is permissible to use and is not something deserving of respect.
+  4. The impurity has not spread beyond its normal area.
+  5. The area is wiped at least three times, or more if needed until clean.
+  
+  #### When Water Is Required
+  
+  Water must be used in the following situations:
+  
+  1. **The impurity spreads beyond its normal area.**
+  2. **The impurity comes from something other than the normal discharge**, such as external contamination.
+  3. **The discharge dries before performing *istijmār*.**
+  4. ***Istijmār* was performed using a prohibited material**, such as dung or bones.
+  5. **The discharge is the contents of an enema.**
+  
+  If a person is unsure whether the impurity spread beyond its normal area, *istijmār* is sufficient, although washing with water is recommended as a precaution.
+  
+  # *Istijmār*
+  
+  *Istijmār* is cleansing the private parts using toilet paper, stones, or another suitable material instead of water. Unlike *istinjāʾ*, which removes both the impurity and its traces, *istijmār* removes the impurity itself, while a slight trace that can only be removed with water is overlooked.
+  
+  Performing *istijmār* after anything requiring cleansing exits from the private parts is obligatory when using it as one's method of purification.
+  
+  #### Conditions for the Cleansing Material
+  
+  The material used for *istijmār* must meet the following conditions:
+  
+  1. **It must be pure.**
+  2. **It must be permissible to use.**
+  3. **It must be dry.**
+  4. **It must effectively remove the impurity.**
+  5. **It must not be something deserving of respect**, such as pages of the Qur'an, books of Islamic knowledge, or anything bearing the name of Allah.
+  
+  #### Conditions for a Valid *Istijmār*
+  
+  1. **The impurity must remain within its usual area.** If it spreads beyond the normal place of exit, the affected area must be washed with water, and *istijmār* alone is no longer sufficient.
+  2. **The area must be wiped at least three times.** If three wipes are insufficient, additional wipes should be used until the area is clean. It is recommended to end with an odd number of wipes.
+  3. **Each wipe must remove impurity.** A slight trace that can only be removed with water is overlooked.
+  
+  # *Istinjāʾ* with Water Only
+  
+  #### The Minimum Requirement
+  
+  When performing *istinjāʾ* with water, both the impurity itself and its traces should be removed until the area returns to its normal state.
+  
+  A person is not required to achieve absolute certainty that every trace has been removed. Rather, it is sufficient to have a strong and reasonable belief (*ghalabat al-ẓann*) that the area has been cleansed. A Muslim should avoid falling into obsessive doubts (*waswās*) by repeatedly washing or checking after a reasonable level of cleanliness has been achieved.
+  
+  # Recommended Actions Related to Relieving Oneself
+  
+  It is recommended to observe the following etiquettes:
+  
+  1. **Before entering the washroom**, say:
+      
+      **بِسْمِ اللَّهِ**
+      
+      *In the name of Allah.*
+      
+  2. **Recite the prescribed supplication before entering the washroom.**
+      
+      **اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَائِثِ**
+      
+      *O Allah, I seek refuge in You from the male and female devils.*
+      
+  3. **Wear footwear** and **cover the head** before entering the washroom.
+  4. **Enter with the left foot.** The same etiquette applies when entering other places of impurity, such as garbage disposal sites and slaughterhouses.
+  5. **Lean on the left leg while relieving oneself**, keeping the right leg raised on its toes.
+  6. **Remain seated briefly after urinating** until any remaining drops of urine have ceased.
+  7. **After urination has ended**, wipe the penis from its base to its tip three times with the left hand, then lightly flick it three times to help remove any remaining drops.
+  8. **Wash the anus thoroughly** until the area has been completely cleansed.
+  9. **Begin with the front private part** when performing *istinjāʾ*. This is recommended for men and virgin women, while a previously married woman may begin with either the front or back.
+  10. **Combine *istijmār* and *istinjāʾ*** by first cleaning with stones or a similar material, then washing with water. Reversing this order is disliked. It is also permissible to perform *istijmār* for one private part and *istinjāʾ* for the other.
+  11. **After performing *istinjāʾ* with water**, sprinkle a small amount of water on the private area or the corresponding area of the clothing to help prevent obsessive doubts (*waswās*). This is not recommended after *istijmār*.
+  12. **Exit the washroom with the right foot.** The same etiquette applies when leaving other places of impurity.
+  13. **Upon leaving the washroom**, say:
+  
+  **غُفْرَانَكَ**
+  
+  *I seek Your forgiveness.*
+  
+  1. **It is also recommended to say:**
+  
+  **الْحَمْدُ لِلَّهِ الَّذِي أَذْهَبَ عَنِّي الْأَذَى وَعَافَانِي**
+  
+  *Praise be to Allah, who removed harm from me and granted me well-being.*
+  
+  # Prohibited and Disliked Actions Related to *Istinjāʾ*
+  
+  #### Prohibited Actions
+  
+  1. **Performing *wuḍūʾ* or *tayammum* before *istinjāʾ*** — If a person urinates or defecates, they must first perform *istinjāʾ*. Otherwise, their *wuḍūʾ* or *tayammum* is invalid. This only applies when something requiring *istinjāʾ* has exited from the private parts.
+  2. **Remaining in the washroom longer than necessary** after relieving oneself.
+  3. **Entering the washroom with a *muṣḥaf*** unless there is a necessity.
+  4. **Reciting the Qur'an while actively relieving oneself.**
+  5. **Relieving oneself** in places that cause harm or inconvenience to others, including:
+      - Pathways and roads.
+      - Water sources, standing water, and water used by people.
+      - Beneficial shade.
+      - Places where people gather.
+      - Beneath trees bearing sought-after fruit.
+      - Animal feed.
+  6. **Relieving oneself** on anything deserving of respect, such as food, or on anything prohibited to use for *istijmār*, including dung and bones.
+  7. **Relieving oneself** on or between the graves of Muslims.
+  8. **Facing or turning one's back to the *qiblah*** while relieving oneself in an open area. This prohibition does not apply inside a building.
+  
+  #### Disliked Actions
+  
+  1. **Entering the washroom with anything bearing the name or remembrance of Allah** unless there is a need to do so. If necessary, it should be concealed.
+  2. **Raising one's garment too early** before sitting to relieve oneself. Likewise, when standing, it is recommended to lower the garment before standing fully upright.
+  3. **Using the right hand** to touch one's private parts, perform *istinjāʾ*, or perform *istijmār*, unless there is a need, such as injury or the inability to use the left hand.
+  4. **Speaking while relieving oneself**, including giving or returning the greeting of *salām*. If one sneezes or hears the *adhān*, one should praise Allah and respond to the *adhān* silently in the heart.
+  5. **Verbally remembering Allah** while in the washroom. However, remembering Allah in one's heart is permissible.
+  6. **Urinating in places where impurity may splash back**, such as holes, burrows, drains, hard ground, untiled bathing areas, stagnant water, small streams, fire, ashes, or a container without need.
+  7. **Performing *wuḍūʾ* or *istinjāʾ*** over the place where one urinated or on impure ground if there is a risk of becoming contaminated by splashing.
+  8. **Facing the *qiblah*** while performing *istinjāʾ* or *istijmār* in an open area.
+  `
+  },
+
+  {
     slug: "wudu-according-to-the-hanbali-madhhab",
     title: "Wuḍūʾ According to the Ḥanbalī Madhhab",
-    summary: "This article presents the rulings of purification according to the Ḥanbalī school, covering wuḍūʾ, its conditions, obligations, recommended and disliked acts, nullifiers, and related rulings. It is summarized from Bidāyat al-ʿĀbid wa-Kifāyat al-Zāhid by Shaykh ʿAbd al-Raḥmān ibn ʿAbd Allāh al-Baʿlī al-Ḥanbalī and Kashshāf al-Qināʿ ʿan Matn al-Iqnāʿ by Shaykh Manṣūr ibn Yūnus al-Buhūtī, may Allah have mercy on them both.",
+    summary: "This article presents the rulings of wuḍūʾ according to the Ḥanbalī school, extracted from Bidāyat al-ʿĀbid and Kashshāf al-Qināʿ.",
     date: "2026-07-23",
     category: "Fiqh",
     author: "Thaqib ibn Fazle",
@@ -48,6 +348,8 @@ export const posts: BlogPost[] = [
   
   If the water is two *qullahs* (approximately 191¼ liters) or more, an impurity falling into it does not render it impure. If it is less than two *qullahs*, it becomes impure as soon as the impurity falls into it.
   
+  To learn more in-depth about the rulings of water, read [this article](https://ibnfazle.com/articles/the-types-of-water-according-to-the-hanbali-madhhab).
+
   # Al-Wuḍūʾ
   
   Wuḍūʾ is linguistically derived from *al-waḍāʾah (الوضاءة)*, which means cleanliness and comeliness.
@@ -88,7 +390,7 @@ export const posts: BlogPost[] = [
   5. **Discernment (*tamyīz*)** — This refers to a child who has reached the age of seven. The *wuḍūʾ* of a child younger than seven is not valid.
   6. **Pure and permissible water** — *Wuḍūʾ* is not valid with impure water or with water that is not permissible to use.
   7. **Removing anything that prevents water from reaching the skin** — Anything that forms a physical barrier between the water and the skin must be removed. Mere color does not affect the validity of *wuḍūʾ*. For example, nail polish must be removed, while the stain left by henna after it has been washed off does not affect the validity of *wuḍūʾ*.
-  8. ***Istinjāʾ*** — *Istinjāʾ* is a condition for the validity of *wuḍūʾ*, as discussed previously.
+  8. ***Istinjāʾ*** — *Istinjāʾ* is a condition for the validity of *wuḍūʾ*. To learn more in-depth about *istinjāʾ*, read [this article](https://ibnfazle.com/articles/etiquettes-of-relieving-oneself-in-the-hanbali-madhhab).
   
   # The Obligatory Acts of *Wuḍūʾ*
   
@@ -198,14 +500,115 @@ export const posts: BlogPost[] = [
   1. **Excessively rinsing the mouth and nose while fasting** — A fasting person should avoid excessive rinsing of the mouth or nose to prevent water from entering the throat. For those who are not fasting, thorough rinsing remains recommended.
   2. **Blowing water from the nose with the right hand** — Water should be expelled from the nose using the left hand whenever possible. Likewise, cleaning the nose or removing any dirt or impurities from it should be done with the left hand rather than the right.
   
-  [^1] *Kashshāf al-Qināʿ ʿan Matn al-Iqnāʿ, Al-Buhūtī (1/109)*
+  [^1]: *Kashshāf al-Qināʿ ʿan Matn al-Iqnāʿ, Al-Buhūtī (1/109)*
+  `
+  },
+
+  {
+    slug: "the-types-of-water-according-to-the-hanbali-madhhab",
+    title: "The Types of Water According to the Ḥanbalī Madhhab",
+    summary: "This article explains the categories of water according to the Ḥanbalī school, from Miftāḥ al-Bidāyah by Shaykh Dr. Muṭlaq al-Jāsir, may Allah preserve him.",
+    date: "2026-07-23",
+    category: "Fiqh",
+    author: "Thaqib ibn Fazle",
+    content: `
+  
+  This article explains the categories of water according to the Ḥanbalī school, including *ṭahūr*, *ṭāhir*, and *najis* water, along with their rulings and uses in purification. The material is summarized from *Miftāḥ al-Bidāyah* by Shaykh Dr. Muṭlaq al-Jāsir, may Allah preserve him.
+  
+  # The Categorization of Water
+  
+  The Ḥanbalī scholars categorize water into three types. This classification was established through *al-istiqrāʾ* (induction), a method in which scholars gathered and examined all of the relevant texts of the Qur'an and the Sunnah relating to water before deriving a comprehensive classification.
+  
+  The three categories are:
+  
+  1. **Ṭahūr (Purifying Water)**
+  2. **Ṭāhir (Pure but Not Purifying Water)**
+  3. **Najis (Impure Water)**
+  
+  # Ṭahūr (Purifying Water)
+  
+  *Ṭahūr* is water that remains in its original created state. It is pure in itself and purifies other things, meaning it may be used for *wuḍūʾ*, *ghusl*, removing impurities, and all ordinary uses such as drinking and cooking.
+  
+  The Ḥanbalī scholars divide *ṭahūr* water into four categories:
+  
+  1. **Ordinary Ṭahūr Water**
+      
+      This is the default type of water. It includes rainwater, river water, spring water, seawater, and any other water that remains in its original state.
+      
+      Water remains *ṭahūr* even if its color, smell, or taste changes due to something that is naturally difficult to avoid, such as fallen leaves, dust, algae, or minerals. These natural changes do not affect its ruling, and it may still be used for purification.
+      
+  2. **Disliked Ṭahūr Water**
+      
+      This is water that remains valid for purification but is disliked to use when better water is available. Examples include:
+      
+      - Extremely hot or extremely cold water if it may cause harm or prevent proper washing.
+      - Water affected by substances that do not mix with it, such as oil or similar materials.
+      - Water heated using impure fuel.
+      - Water from sources over which there is scholarly caution, such as certain graveyard wells.
+      
+      If no other *ṭahūr* water is available, the dislike is removed.
+      
+  3. **Forbidden Ṭahūr Water**
+      
+      This is water that is itself *ṭahūr* but is unlawful to use because it was obtained unlawfully, such as stolen or usurped water. According to the Ḥanbalī school, *wuḍūʾ* performed with such water is invalid, although it may still remove physical impurities.
+      
+  4. **Ṭahūr Water That Does Not Lift *Ḥadath***
+      
+      This is a specific ruling unique to the Ḥanbalī school. It refers to a small amount of *ṭahūr* water left over after a legally accountable woman has used it alone to complete a full purification from *ḥadath*. According to the *madhhab*, the remaining water may still be used by women for purification, but not by adult men to perform *wuḍūʾ* or *ghusl*. This ruling is one of the distinctive positions (*mufradāt*) of the Ḥanbalī school.
+      
+  
+  # Ṭāhir (Pure but Not Purifying Water)
+  
+  *Ṭāhir* is water that is pure in itself but cannot be used for purification. It may be used for ordinary purposes such as drinking, cooking, or cleaning, but it cannot be used for *wuḍūʾ*, *ghusl*, or removing impurities.
+  
+  The Ḥanbalī scholars mention the following types of *ṭāhir* water:
+  
+  1. **Water substantially changed by a pure substance**
+      
+      If a pure substance causes a substantial change in the water's color, taste, or smell, it is no longer considered *ṭahūr* and becomes *ṭāhir*. Examples include water mixed with enough tea, juice, or similar substances that it is no longer described as ordinary water.
+      
+      A slight change does not affect the ruling. For example, water with a small amount of dust, minerals, or a slight trace of rust remains *ṭahūr*.
+      
+  2. **Used water**
+      
+      This refers to a small amount of water that has already been used to perform *wuḍūʾ* or *ghusl* and has separated from the body. According to the Ḥanbalī school, this water remains pure but can no longer be used for purification.
+      
+  3. **Water into which the hand was dipped after waking from night sleep**
+      
+      If a legally accountable person dips their hand into a small amount of water after waking from night sleep before washing it three times, the water becomes *ṭāhir*. It remains pure but can no longer be used for *wuḍūʾ* or *ghusl*.
+      
+  4. **Water used to remove an impurity**
+      
+      Water that separates after the final washing of an impurity, once the impurity has been completely removed and the water itself has not changed, is considered *ṭāhir*. It remains pure but cannot be used again for purification.
+      
+  
+  # Najis (Impure Water)
+  
+  *Najis* is water that has become impure due to contact with an impurity (*najāsah*). It is not permissible to use for *wuḍūʾ*, *ghusl*, removing impurities, drinking, cooking, or any other ordinary purpose unless there is a genuine necessity.
+  
+  According to the Ḥanbalī school, *najis* water falls into two categories:
+  
+  1. **Water changed by an impurity**
+      
+      If an impurity causes any change to the water's color, taste, or smell, the water becomes *najis*. Unlike *ṭāhir* water, where only a substantial change affects its ruling, even a slight change caused by an impurity is enough to render the water impure.
+      
+      An exception is water being used to wash an impure object or surface. In this case, the water is considered to be in the process of purification, so the normal ruling does not apply in the same way.
+      
+  2. **A small amount of water that comes into contact with an impurity**
+      
+      According to the Ḥanbalī school, if a small amount of water comes into contact with an impurity, it becomes *najis* even if its color, taste, and smell remain unchanged.
+      
+      If the water is at least two *qullahs* (approximately 191 liters), it does not become impure unless one of its three qualities changes.
+      
+  
+  The prohibition of using *najis* water is lifted only in cases of genuine necessity, such as when a person would otherwise perish from thirst and no pure water is available.
   `
   },
 
   {
     slug: "the-division-of-tawhid-into-three-categories",
     title: "The Division of Tawḥīd into Three Categories",
-    summary: "This article explains the meaning of *tawḥīd*, its three categories, and the evidence for this classification from the Qur'an, the Sunnah, and the statements of the early scholars. It is summarized from *Al-Qawl al-Sadīd fī al-Radd ʿalā Man Ankira Taqsīm al-Tawḥīd* by Shaykh ʿAbd al-Razzāq ibn ʿAbd al-Muḥsin al-Badr, may Allah preserve him.",
+    summary: "This article explains tawḥīd, its three categories, and the evidence for this classification. Extracted from Al-Qawl al-Sadīd fī al-Radd ʿalā Man Ankira Taqsīm al-Tawḥīd.",
     date: "2026-07-22",
     category: "ʿAqīdah",
     author: "Thaqib ibn Fazle",
