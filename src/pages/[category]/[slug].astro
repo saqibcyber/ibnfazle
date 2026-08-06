@@ -1,0 +1,208 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import ContentListItem from '../../components/ContentListItem.astro';
+import ArticleToc from '../../components/ArticleToc.astro';
+import ShareButton from '../../components/ShareButton.astro';
+import bismillah from '../../assets/bismillah.svg';
+import authorPhoto from '../../assets/me.webp';
+import {
+  DEFAULT_AUTHOR,
+  getAllContent,
+  getCategories,
+  getContentByPath,
+  getRelated,
+  getSectionMembership,
+  getSiteSettings,
+} from '../../lib/sanity';
+import { renderMarkdown } from '../../lib/markdown';
+
+export async function getStaticPaths() {
+  const items = await getAllContent();
+  return items
+    .filter((item) => item.category?.slug)
+    .map((item) => ({
+      params: {
+        category: item.category!.slug,
+        slug: item.slug,
+      },
+    }));
+}
+
+const { category, slug } = Astro.params;
+
+if (!category || !slug) {
+  return Astro.redirect('/');
+}
+
+const item = await getContentByPath(category, slug);
+
+if (!item) {
+  return Astro.redirect('/');
+}
+
+const [catalog, settings, categories, sectionMembership] = await Promise.all([
+  getAllContent(),
+  getSiteSettings(),
+  getCategories(),
+  getSectionMembership(),
+]);
+const related = getRelated(item, catalog, sectionMembership, 3);
+
+const isArticle = item.type === 'article';
+const { html, toc } = isArticle
+  ? renderMarkdown(item.content || '')
+  : { html: '', toc: [] };
+const hasToc = toc.length > 0;
+
+const dateLabel = new Intl.DateTimeFormat('en-US', {
+  month: 'long',
+  day: 'numeric',
+  year: 'numeric',
+}).format(new Date(item.date + 'T00:00:00'));
+
+const ogImage = item.imageUrl || undefined;
+---
+
+<BaseLayout
+  title={`${item.title} | Thaqib ibn Fazle`}
+  description={item.summary}
+  ogType={isArticle ? 'article' : 'website'}
+  publishedTime={item.date}
+  ogImage={ogImage}
+>
+  <a class="back-link" href="/">
+    <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M19 12H5"></path>
+      <path d="m12 19-7-7 7-7"></path>
+    </svg>
+    Back to home
+  </a>
+
+  <div class:list={['article-shell', { 'article-shell--with-toc': hasToc }]}>
+    {hasToc && <ArticleToc items={toc} />}
+
+    <main>
+      <article>
+        {
+          item.category && (
+            <p class="article-category">{item.category.title}</p>
+          )
+        }
+        <h1 class="article-title">{item.title}</h1>
+
+        <div class="article-meta">
+          <span class="article-meta__author">
+            <img
+              class="article-meta__avatar"
+              src={authorPhoto.src}
+              alt=""
+              width="32"
+              height="32"
+              loading="eager"
+              decoding="async"
+            />
+            {DEFAULT_AUTHOR}
+          </span>
+          <div class="article-meta__rest">
+            <span class="article-meta__item">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+                <path d="M16 2v4M8 2v4M3 10h18"></path>
+              </svg>
+              <time datetime={item.date}>{dateLabel}</time>
+            </span>
+            {
+              item.readTime && (
+                <span class="article-meta__item">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M12 6v6l4 2"></path>
+                  </svg>
+                  {item.readTime} min
+                </span>
+              )
+            }
+            {
+              item.pageCount && (
+                <span class="article-meta__item">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <path d="M14 2v6h6"></path>
+                  </svg>
+                  {item.pageCount} pages
+                </span>
+              )
+            }
+            {isArticle && <ShareButton title={item.title} text={item.summary} />}
+          </div>
+        </div>
+
+        {
+          item.imageUrl && (
+            <img
+              class="article-thumbnail"
+              src={item.imageUrl}
+              alt=""
+              width="960"
+              height="540"
+              loading="eager"
+              decoding="async"
+            />
+          )
+        }
+
+        {
+          isArticle ? (
+            <>
+              <img
+                class="article-bismillah"
+                src={bismillah.src}
+                alt="Bismillah"
+                width="320"
+                height="80"
+              />
+              <div class="markdown-body" set:html={html} />
+            </>
+          ) : (
+            <div class="pdf-page">
+              <p class="pdf-page__summary">{item.summary}</p>
+              {
+                item.fileUrl && (
+                  <a
+                    class="pdf-page__download"
+                    href={item.fileUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Download PDF
+                    <span class="sr-only"> (opens in a new tab)</span>
+                  </a>
+                )
+              }
+            </div>
+          )
+        }
+      </article>
+
+      {
+        related.length > 0 && (
+          <section class="related" aria-labelledby="related-heading">
+            <div class="section-label">
+              <h2 class="section-label__title" id="related-heading">Related Content</h2>
+            </div>
+            <ul class="content-list">
+              {related.map((relatedItem) => (
+                <li>
+                  <ContentListItem item={relatedItem} />
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+    </main>
+  </div>
+
+  <SiteFooter settings={settings} categories={categories} />
+</BaseLayout>

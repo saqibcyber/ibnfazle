@@ -1,0 +1,63 @@
+---
+import '@fontsource/inter/300.css';
+import '@fontsource/inter/500.css';
+import '@fontsource/playfair-display/500.css';
+import '../styles/global.css';
+import defaultOgImage from '../assets/banner.jpeg';
+
+interface Props {
+  title?: string;
+  description?: string;
+  ogType?: string;
+  publishedTime?: string;
+  ogImage?: string;
+}
+
+const siteName = 'Thaqib ibn Fazle';
+const defaultDescription =
+  'A digital library of clear, referenced articles clarifying Islam.';
+
+const {
+  title = siteName,
+  description = defaultDescription,
+  ogType = 'website',
+  publishedTime,
+  ogImage: ogImageProp,
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const defaultBanner = new URL(defaultOgImage.src, Astro.site).href;
+const ogImage = ogImageProp || defaultBanner;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content={siteName} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.ico" />
+
+    <meta property="og:type" content={ogType} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:site_name" content={siteName} />
+    {publishedTime && <meta property="article:published_time" content={publishedTime} />}
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <slot />
+    </div>
+  </body>
+</html>

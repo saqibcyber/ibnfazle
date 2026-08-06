@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import LibraryBrowser from '../components/LibraryBrowser.astro';
+import HeroFeature from '../components/HeroFeature.astro';
+import { getAllContent, getCategories, getSiteSettings } from '../lib/sanity';
+
+const [items, categories, settings] = await Promise.all([
+  getAllContent(),
+  getCategories(),
+  getSiteSettings(),
+]);
+
+const hero = items[0] || null;
+const rest = hero ? items.filter((i) => i._id !== hero._id) : items;
+---
+
+<BaseLayout title="Thaqib ibn Fazle">
+  <SiteHeader tagline={settings.tagline} socialLinks={settings.socialLinks} />
+  <main>
+    {
+      hero && (
+        <div class="library-hero">
+          <HeroFeature item={hero} label="Latest" />
+        </div>
+      )
+    }
+    <LibraryBrowser items={rest} categories={categories} heading="Library" />
+  </main>
+  <SiteFooter settings={settings} categories={categories} />
+</BaseLayout>

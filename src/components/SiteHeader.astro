@@ -1,0 +1,27 @@
+---
+import logo from '../assets/logo.svg';
+import SocialLinks from './SocialLinks.astro';
+import type { SocialLink } from '../lib/sanity';
+
+interface Props {
+  title?: string;
+  tagline?: string;
+  socialLinks?: SocialLink[];
+}
+
+const {
+  title = 'Thāqib ibn Fazle',
+  tagline = 'A digital library of clear, referenced articles clarifying Islam.',
+  socialLinks = [],
+} = Astro.props;
+---
+
+<header class="site-header">
+  <a class="site-header__logo" href="/" aria-label="Home">
+    <img src={logo.src} alt="" width="101" height="101" />
+  </a>
+  <h1 class="site-header__title">{title}</h1>
+  <p class="site-header__tagline">{tagline}</p>
+  <SocialLinks links={socialLinks} class="site-header__socials" />
+  <hr class="site-header__divider" />
+</header>
