@@ -9,5 +9,6 @@ export default defineConfig({
   output: 'static',
   redirects: {
     '/library': '/',
+    '/page/1': '/',
   },
 });

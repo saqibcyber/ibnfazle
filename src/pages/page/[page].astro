@@ -1,0 +1,54 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import LibraryBrowser from '../../components/LibraryBrowser.astro';
+import { getAllContent, getCategories, getSiteSettings } from '../../lib/sanity';
+import { homePageHref, paginate, totalPagesFor } from '../../lib/pagination';
+
+export async function getStaticPaths() {
+  const items = await getAllContent();
+  const restCount = Math.max(0, items.length - (items[0] ? 1 : 0));
+  const totalPages = totalPagesFor(restCount);
+
+  return Array.from({ length: Math.max(0, totalPages - 1) }, (_, i) => {
+    const page = i + 2;
+    return {
+      params: { page: String(page) },
+      props: { page },
+    };
+  });
+}
+
+const { page } = Astro.props;
+
+const [items, categories, settings] = await Promise.all([
+  getAllContent(),
+  getCategories(),
+  getSiteSettings(),
+]);
+
+const hero = items[0] || null;
+const rest = hero ? items.filter((i) => i._id !== hero._id) : items;
+const listing = paginate(rest, page);
+
+if (page !== listing.page) {
+  return Astro.redirect(homePageHref(listing.page));
+}
+---
+
+<BaseLayout title={`Library · Page ${listing.page} | Thaqib ibn Fazle`}>
+  <SiteHeader tagline={settings.tagline} socialLinks={settings.socialLinks} />
+  <main>
+    <LibraryBrowser
+      items={listing.items}
+      categories={categories}
+      heading="Library"
+      totalCount={listing.total}
+      page={listing.page}
+      totalPages={listing.totalPages}
+      hrefForPage={homePageHref}
+    />
+  </main>
+  <SiteFooter settings={settings} categories={categories} />
+</BaseLayout>

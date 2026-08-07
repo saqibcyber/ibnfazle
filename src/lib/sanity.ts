@@ -168,14 +168,14 @@ const contentRefFields = `
   "tags": tags[]->${tagProjection}
 `
 
-export async function getArticles(): Promise<ContentItem[]> {
+async function getArticles(): Promise<ContentItem[]> {
   const docs = await sanity.fetch(
     `*[_type == "article" && defined(slug.current)] | order(date desc) {${articleFields}}`,
   )
   return (docs || []).map(mapArticle)
 }
 
-export async function getPdfs(): Promise<ContentItem[]> {
+async function getPdfs(): Promise<ContentItem[]> {
   const docs = await sanity.fetch(
     `*[_type == "pdf" && defined(slug.current)] | order(date desc) {${pdfFields}}`,
   )
@@ -206,12 +206,15 @@ export async function getCategoryPages(): Promise<CategoryPage[]> {
       _key,
       heading,
       "rawItems": items[]->{${contentRefFields}}
-    },
-    "legacyCurated": curatedItems[]->{${contentRefFields}}
+    }
   }`)
 
-  return (docs || []).map((doc: any) => {
-    let sections: ClusterSection[] = (doc.sections || [])
+  return (docs || []).map((doc: any) => ({
+    title: doc.title,
+    slug: doc.slug,
+    heading: doc.heading || undefined,
+    subheading: doc.subheading || undefined,
+    sections: (doc.sections || [])
       .filter((section: any) => section?.heading)
       .map((section: any) => ({
         _key: section._key,
@@ -219,29 +222,8 @@ export async function getCategoryPages(): Promise<CategoryPage[]> {
         items: (section.rawItems || [])
           .filter(Boolean)
           .map((item: any) => (item._type === 'pdf' ? mapPdf(item) : mapArticle(item))),
-      }))
-
-    // Backward-compatible fallback while curatedItems is migrated to sections.
-    if (sections.length === 0 && Array.isArray(doc.legacyCurated) && doc.legacyCurated.length > 0) {
-      sections = [
-        {
-          _key: 'legacy-curated',
-          heading: 'Featured',
-          items: doc.legacyCurated
-            .filter(Boolean)
-            .map((item: any) => (item._type === 'pdf' ? mapPdf(item) : mapArticle(item))),
-        },
-      ]
-    }
-
-    return {
-      title: doc.title,
-      slug: doc.slug,
-      heading: doc.heading || undefined,
-      subheading: doc.subheading || undefined,
-      sections,
-    }
-  })
+      })),
+  }))
 }
 
 /** Map of content id → section keys that include it (across all categories). */

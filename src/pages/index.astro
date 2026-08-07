@@ -5,6 +5,7 @@ import SiteFooter from '../components/SiteFooter.astro';
 import LibraryBrowser from '../components/LibraryBrowser.astro';
 import HeroFeature from '../components/HeroFeature.astro';
 import { getAllContent, getCategories, getSiteSettings } from '../lib/sanity';
+import { homePageHref, paginate } from '../lib/pagination';
 
 const [items, categories, settings] = await Promise.all([
   getAllContent(),
@@ -14,6 +15,7 @@ const [items, categories, settings] = await Promise.all([
 
 const hero = items[0] || null;
 const rest = hero ? items.filter((i) => i._id !== hero._id) : items;
+const listing = paginate(rest, 1);
 ---
 
 <BaseLayout title="Thaqib ibn Fazle">
@@ -26,7 +28,15 @@ const rest = hero ? items.filter((i) => i._id !== hero._id) : items;
         </div>
       )
     }
-    <LibraryBrowser items={rest} categories={categories} heading="Library" />
+    <LibraryBrowser
+      items={listing.items}
+      categories={categories}
+      heading="Library"
+      totalCount={listing.total}
+      page={listing.page}
+      totalPages={listing.totalPages}
+      hrefForPage={homePageHref}
+    />
   </main>
   <SiteFooter settings={settings} categories={categories} />
 </BaseLayout>

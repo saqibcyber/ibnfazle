@@ -1,0 +1,111 @@
+---
+import ContentListItem from './ContentListItem.astro';
+import Pagination from './Pagination.astro';
+import type { CategoryPage, ContentItem, Taxonomy } from '../lib/sanity';
+import { categoryPageHref, paginate } from '../lib/pagination';
+
+interface Props {
+  category: CategoryPage;
+  items: ContentItem[];
+  categories: Taxonomy[];
+  page?: number;
+}
+
+const { category, items, categories, page = 1 } = Astro.props;
+
+const heading = category.heading || category.title;
+const sectionIds = new Set(
+  category.sections.flatMap((section) => section.items.map((item) => item._id)),
+);
+const unsectioned = items.filter((item) => !sectionIds.has(item._id));
+const hasSections = category.sections.some((s) => s.items.length > 0);
+const librarySource = hasSections ? unsectioned : items;
+const listing = paginate(librarySource, page);
+const hrefForPage = (n: number) => categoryPageHref(category.slug, n);
+const showSections = hasSections && listing.page === 1;
+const showLibrary = !hasSections || unsectioned.length > 0;
+---
+
+<header class="topic-cluster__header">
+  <h2 class="topic-cluster__heading">{heading}</h2>
+  {
+    category.subheading && listing.page === 1 && (
+      <p class="topic-cluster__subheading">{category.subheading}</p>
+    )
+  }
+</header>
+
+{
+  categories.length > 0 && (
+    <nav class="filter-row" aria-label="Categories">
+      <a class="filter-chip" href="/">All</a>
+      {categories.map((cat) => (
+        <a
+          class:list={['filter-chip', { 'is-active': cat.slug === category.slug }]}
+          href={`/${cat.slug}`}
+        >
+          {cat.title}
+        </a>
+      ))}
+    </nav>
+  )
+}
+
+{
+  showSections
+    ? category.sections
+        .filter((section) => section.items.length > 0)
+        .map((section) => (
+          <section class="cluster-section" aria-labelledby={`section-${section._key}`}>
+            <div class="section-label">
+              <h3 class="section-label__title" id={`section-${section._key}`}>
+                {section.heading}
+              </h3>
+              <span class="section-label__meta">
+                {section.items.length} {section.items.length === 1 ? 'item' : 'items'}
+              </span>
+            </div>
+            <ul class="content-list">
+              {section.items.map((item) => (
+                <li>
+                  <ContentListItem item={item} />
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))
+    : null
+}
+
+{
+  showLibrary && (
+    <section class="cluster-section" aria-labelledby="category-library-heading">
+      <div class="section-label">
+        <h3 class="section-label__title" id="category-library-heading">
+          {hasSections ? 'More in this category' : 'Library'}
+        </h3>
+        <span class="section-label__meta">
+          {listing.total} {listing.total === 1 ? 'item' : 'items'}
+        </span>
+      </div>
+      {
+        listing.items.length > 0 ? (
+          <ul class="content-list">
+            {listing.items.map((item) => (
+              <li>
+                <ContentListItem item={item} />
+              </li>
+            ))}
+          </ul>
+        ) : (
+          listing.page === 1 && <p class="library-empty">No content in this category yet.</p>
+        )
+      }
+      <Pagination
+        page={listing.page}
+        totalPages={listing.totalPages}
+        hrefForPage={hrefForPage}
+      />
+    </section>
+  )
+}

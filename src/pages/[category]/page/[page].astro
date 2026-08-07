@@ -1,0 +1,89 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SiteHeader from '../../../components/SiteHeader.astro';
+import SiteFooter from '../../../components/SiteFooter.astro';
+import CategoryListing from '../../../components/CategoryListing.astro';
+import { getAllContent, getCategories, getCategoryPages, getSiteSettings } from '../../../lib/sanity';
+import { categoryPageHref, paginate, totalPagesFor } from '../../../lib/pagination';
+
+export async function getStaticPaths() {
+  const [items, categories, categoryPages, settings] = await Promise.all([
+    getAllContent(),
+    getCategories(),
+    getCategoryPages(),
+    getSiteSettings(),
+  ]);
+
+  const paths: {
+    params: { category: string; page: string };
+    props: {
+      category: (typeof categoryPages)[number];
+      items: typeof items;
+      categories: typeof categories;
+      settings: typeof settings;
+      page: number;
+    };
+  }[] = [];
+
+  for (const category of categoryPages) {
+    if (category.slug === 'library' || category.slug === 'page') continue;
+
+    const categoryItems = items.filter((i) => i.category?.slug === category.slug);
+    const sectionIds = new Set(
+      category.sections.flatMap((section) => section.items.map((item) => item._id)),
+    );
+    const hasSections = category.sections.some((s) => s.items.length > 0);
+    const librarySource = hasSections
+      ? categoryItems.filter((item) => !sectionIds.has(item._id))
+      : categoryItems;
+
+    const totalPages = totalPagesFor(librarySource.length);
+    for (let page = 2; page <= totalPages; page += 1) {
+      paths.push({
+        params: { category: category.slug, page: String(page) },
+        props: {
+          category,
+          items: categoryItems,
+          categories,
+          settings,
+          page,
+        },
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { category, items, categories, settings, page } = Astro.props;
+const heading = category.heading || category.title;
+const title = `${heading} · Page ${page} | Thaqib ibn Fazle`;
+const description =
+  category.subheading || `Content in ${category.title} from Thaqib ibn Fazle.`;
+
+const sectionIds = new Set(
+  category.sections.flatMap((section) => section.items.map((item) => item._id)),
+);
+const hasSections = category.sections.some((s) => s.items.length > 0);
+const librarySource = hasSections
+  ? items.filter((item) => !sectionIds.has(item._id))
+  : items;
+const listing = paginate(librarySource, page);
+
+if (page !== listing.page) {
+  return Astro.redirect(categoryPageHref(category.slug, listing.page));
+}
+---
+
+<BaseLayout title={title} description={description}>
+  <SiteHeader tagline={settings.tagline} socialLinks={settings.socialLinks} />
+  <main class="topic-cluster">
+    <CategoryListing
+      category={category}
+      items={items}
+      categories={categories}
+      page={listing.page}
+    />
+  </main>
+  <SiteFooter settings={settings} categories={categories} />
+</BaseLayout>
